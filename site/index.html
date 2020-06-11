@@ -3,32 +3,89 @@
 <head>
 	<meta charset="utf-8">
 	<title>How To Git !</title>
+	<style type="text/css">
+		#logo {
+			filter: blur(0px);
+			opacity: 1; 
+			width: 55px;
+			margin: 0px -4px -10px 0px;
+			border-radius: 10; }
+		h1 {
+			color: #AAE5CE; 
+			font-size: 50px; 
+			text-align: center; } 
+	   	body {
+			background-color : #323131; 
+			font-family: Verdana; 
+			margin-top: -20px; }
+		p {
+			margin: 20px 30px 0px 30px;			
+			text-align: center; 
+			font-size: 17px; 
+			color: #FDFEB9; 
+			text-align: justify; }	
+		ul {
+			margin: 20px 0px 0 30px;
+			font-size: 17px; 
+			color: #FDFEB9; 
+			text-align: justify; }		
+		hr {
+			display: ruby-base-container;
+		}
+		#tagline {
+			text-align: center; 
+			font-size: 18px;  
+			margin: -35px 0px 0 0px; 
+			color: #8DCBC4; }
+		#hr-top {
+			margin: 11px 30px 10px 30px; 
+			text-align: center; 
+			height: 0px; }
+		#hr-bot {
+			margin: 20px 30px -5px 30px; 
+			text-align: center;			
+			height: 0px; }
+		#footwork {
+			margin: 14px 0px 0 0px;						
+			text-align: center; 
+			font-size: 10px; 
+			color: #FFFFFF; }
+	</style>
 </head>
-<body style="background-color : rgba(141, 235, 209, 0.28); font-family: Verdana">
-	<h1 style="color: rgb(11, 111, 102); font-size: 50px; text-align: center;">
+<body>
+	<h1>
+		<img id="logo" src="https://indonesia-kompeten.com/assets/img/blog/gwindows_logo1.png" alt="github logo"> 
 		Git Commands & Browser Sync
 	</h1>
 	<header>
-		<p style="text-align: center; font-size: 18px;  margin: -35px 0px 0 0px; color: #034240" 
-		onclick="alert('Information about this page');">
-		<strong>USEFULL COMMANDS TO BE WORKIN WITH GITHUB</strong>
+		<p id="tagline"> 
+		<strong>SOME USEFUL COMMANDS TO BE WORKIN WITH GITHUB</strong>
+		<hr id="hr-top" color="grey">		
 		</p>		
 	</header>
-	<p style="margin: 20px 0px 0 250px; font-size: 20px; color: #034240;">
-		1. git clone [https_link] // get HTTPS Repos URL to local machine<br>
-		2. git status // cek origin dan file pending<br>
-		3. git checkout [branch] // ubah branch<br>
-		4. git status // check origin and file pending<br>
-		5. git add . // add all files to be commit<br>	
-		6. git commit -m "2nd change" // commit the file<br>
-		7. git push // push to github database<br>
-		<br>
-		<strong style="color: rgb(11, 111, 102)">Browser Sync</strong> : browser-sync start --server --directory --files "*"<br>
+	<p>
+		<strong style="color: #8AF7B6">Git</strong> 
+		is a free and open source distributed version control system
+		designed to handle everything from small to very large projects
+		speed and efficiency. Therefore, here are some commands that are essentials
+		for Web Developer to be able update and handle their repos easily.
+	</p>
+	<ul>
+		<li>git clone [HTTPS_link] | get HTTPS Repos URL to Local Machine</li>
+		<li>git status | check the origin and file's status</li>
+		<li>git checkout [branch] | change branch/owner</li>
+		<li>git add [files]/[.] | add file/all files to be ready-commit state</li>
+		<li>git commit -m "2nd change" | commit the file with comments</li>
+		<li>git push | push the files to github repos online</li>
+	</ul>	
+	<p>
+		<strong style="color: #8AF7B6">Browser Sync</strong>
+		: browser-sync start --server --directory --files "*"<br>
 	</p>
 	<footer>
-		<hr>
-		<p style="text-align: center; font-size: 12px" onclick="alert('Information about this page');">
-		Site tutorial @ 2020 mnurirsyad.github.io | build 3.0.1 | All Rights Reserved | <em>Coursera</em> 
+		<hr id="hr-bot" color="grey">
+		<p id="footwork">
+		Site tutorial @ 2020 mnurirsyad.github.io | build 3.0.1 | All Rights Reserved | <em>Coursera</em> | <em>Khan Academy</em> 
 		</p>
 	</footer>
 </body>
