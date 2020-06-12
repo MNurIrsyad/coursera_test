@@ -1,17 +1,46 @@
 #logo {
 	filter: blur(0px);
 	opacity: 1; 
-	width: 55px;
-	margin: 0px -4px -10px 0px;
+	width: 50px;
+	margin: 0px -8px -5px 0px;
 	border-radius: 10; }
+#author-logo {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%; 
+	margin: 10px 3px -10px 30px; }
+#author-stats {
+	font-size: 12px;
+	color: #A7A3A3;
+	text-align: left;
+	margin: -25px 0px 0px 70px; }
+#path-web {
+	font-family: sans-serif;
+	color: #F7FCDD;
+	font-size: 13px;
+	text-align: left;
+	margin: -15px 0px 0px 30px; }
+#sub-title {
+	font-weight: normal;
+	color: #E0D275;
+	font-size: 20px; 
+	margin: -5px 0px 0px 0px; }
 h1 {
 	color: #AAE5CE; 
 	font-size: 50px; 
-	text-align: center; } 
+	text-align: center; 
+	height: 60px;
+	width: 500px; 
+	margin: 35px 900px 30px 5px; }
+h2 {
+	font-size: 35px;
+	color: #F9FF97;
+	text-align: left;
+	margin: 0px 0px 0px 30px;	}
 body {
 	background-color : #323131; 
 	font-family: Verdana; 
-	margin-top: -20px; }
+	margin: -30px 0px 0px 0px; }
 p {
 	margin: 20px 30px 0px 30px;			
 	text-align: center; 
@@ -19,33 +48,39 @@ p {
 	color: #E5FFFC; 
 	text-align: justify; }	
 ul {
-	margin: 20px 0px 0 8px;
+	margin: 20px 0px 0px 8px;
 	font-size: 17px; 
 	color: #E5FFFC; 
-	text-align: justify; }		
+	text-align: justify; }	
+div {
+	margin: 0px 0px -15px 0px; }
 hr {
 	display: ruby-base-container; }
 a {
 	color: #FDCBFF;
 	text-decoration: none;}
 #tagline {
-	text-align: center; 
+	text-align: left; 
 	font-size: 18px;  
-	margin: -35px 0px 0 0px; 
+	width: 530px;
+	margin: -35px 40px 0px 85px; 
 	color: #8DCBC4; }
 #hr-top {
 	margin: 11px 30px 10px 30px; 
 	text-align: center; 
 	height: 0px; }
+#hr-mid {
+	margin: 12px 30px 10px 30px; 
+	text-align: center; 
+	height: 0px;}
 #hr-bot {
-	margin: 20px 30px -5px 30px; 
+	margin: 30px 30px -5px 30px; 
 	text-align: center;			
 	height: 0px; }
 #footwork {
-	margin: 14px 0px 0 0px;						
+	margin: 14px 0px 40px 0px;						
 	text-align: center; 
 	font-size: 10px; 
 	color: #FFFFFF; }
 #bold-phrase {
 	color: #74EEA5; }
-	
