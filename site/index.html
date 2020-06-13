@@ -2,12 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>How To Git</title>
+	<title>Introduction to Git | GIT-CONNECT</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css" />	
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+	<link rel="icon" href="https://raw.githubusercontent.com/MNurIrsyad/coursera_test/master/site/favicon.ico">
 </head>
 <body>
 	<h1>
@@ -17,12 +14,12 @@
 	</h1>
 	<header>
 		<p id="tagline"> 
-		<strong>CODING IS EASY WITH GRIT & GIT</strong>
+		<strong>LEARNING IS EASY WITH GRIT & GIT</strong>
 		<hr id="hr-top" color="grey">		
 		</p>		
 	</header>
 	<div id="path-web" >
-		<a href="">Dashbord</a> > <a href=""> Learn Git </a> > <a href=""> Introduction to Git</a>
+		<a href="">Dashbord</a> &nbsp>&nbsp <a href=""> Learn Git </a> &nbsp>&nbsp <a href=""> Introduction to Git</a>
 	</div>
 	<h2>
 		Introduction to Git
@@ -39,19 +36,46 @@
 	</div>
 	<hr id="hr-mid" color="grey">					
 	<p>
+		When dealing with projects that are collaboratives, it's ideal to somehow posted it on public so other collegues can
+		deploy and customize their wholesome projects. Or even just a personal projects, that wanted to share to public and giving
+		other people thoughts and try to make it an open-source project to others. Well, git is one of the best tool to medium
+		that desire. <br><br>
+
 		<strong id="bold-phrase">Git</strong> 
 		is a free and open source distributed version control system
 		designed to handle everything from small to very large projects
-		speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.  
+		speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows. By connecting git with github, people can share and post their projects on public and monitor their
+		project's growth through time to time that can be done by many collaborators at a time.<br><br> 
+
+		Using git can be done in Unix/Linux OS in terminal, or even in Windows OS in Powershell or CMD. Here, are a simple guide to
+		work with Git and Github withsome essentials commands that are helpful to started with :
 	</p>
 	<ul>
-		<li>git clone
+		<li>Install Git & Crate GitHub Account
 			<div>
-				When dealing with repository / files in github, make sure
+				Here, you can follow this <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">instruction</a> on how to download Git in different OS that are available. Get your free <a href="https://github.com/">GitHub Account</a> also in order to create your public repository in the first time. You can also verify your git installation by checking the version of it :<br>
+				<p class="snippet-code">
+					$ git --version<br>
+					<em>git version 2.27.0.windows.1</em>				
+				</p>
+			</div>
+			<br>
+		</li>		
+		<li>Create Local Git Repository
+			<div>
+				Here, we are going to learn how to use git on terminal. If you haven't much experience with it, this <a href="https://www.hostinger.com/tutorials/linux-commands">article</a> cover most of the commands that we will be using. These following commands
+				are also applicable for both Unix/Linux and Windows. To begin, open the terminal or CMD, and start to create a local
+				on your computer. In this case, its will be done in file Documents : <br>
+				<p class="snippet-code">
+					$ cd /home/cookie/Documents/ &nbsp&nbsp&nbsp<em>#changing directory in Linux</em><br> 
+					$ cd C:\Users\cookie\Documents\ <em>#changing directory in Windows</em><br>		
+					$ mkdir First_Repos &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<em>#create a folder called First_Repos</em><br>
+					$ git init 
+				</p>
 			</div>
 			<br>
 		</li>
-		<li>git status | check the origin and file's status</li>
+		<li>Add a new file to First_Repos folder
 		<li>git checkout [branch] | change branch/owner</li>
 		<li>git add [files]/[.] | add file/all files to be ready-commit state</li>
 		<li>git commit -m "2nd change" | commit the file with comments</li>
